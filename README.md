@@ -18,11 +18,12 @@ Install these prerequisites before proceeding-
 
 ## Build from scratch
 
-### Downloading the Dataset
 Clone this repository using-
 ```
 git clone https://github.com/abhijeetghubade/Emotion_recognition_CNN.git
 ```
+
+### Download the Dataset
 Download and extract the [Face Emotion Recognition (FER)](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) dataset from Kaggle link.
 
 ### Preprocessing and Training
