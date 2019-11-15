@@ -40,6 +40,8 @@ This Model -  66.369% accuracy
 
 You can do the same on your custom test image and running thefertestcustom.py file. To make things more fun, I tested the model on faces of the cast from a popular TV Series F.R.I.E.N.D.S and results were pretty good!
 
+![](https://github.com/abhijeetghubade/Emotion_recognition_CNN/blob/master/combined%20results.png)
+
 ## Future Usage:
 I used the Convolutional Neural Network (CNN) approach to get features from images. In future work, we can look into any other Deep Learning approach to do the same. We can also make some improvement, and make it work in real time.
 
