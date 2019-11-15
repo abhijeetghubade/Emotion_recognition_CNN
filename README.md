@@ -29,7 +29,7 @@ Download and extract the [Face Emotion Recognition (FER)](https://www.kaggle.com
 ### Preprocessing and Training
 
 Run the `preprocessing.py` file, which would generate `fadataX.npy` and `flabels.npy` files for you.
-Run the `fertrain.py` file,  this would take sometime depending on your processor and gpu. Took around 1 hour for with an Intel Core i7-7700K 4.20GHz processor and an Nvidia GeForce GTX 1060 6GB gpu, with tensorflow running on gpu support. If you don't have required hardward, you can use "Google Colab" for Training. It is free of cost and easy to use (I used it).
+Run the `fertrain.py` file,  this would take sometime depending on your processor and gpu. Took around 1 hour for with an Intel Core i7-7700K 4.20GHz processor and an Nvidia GeForce GTX 1060 6GB gpu, with tensorflow running on gpu support. If you don't have required hardware, you can use "Google Colab" for Training. It is free of cost and easy to use (I used it).
 
 This would create `modXtest.npy`, `modytest,npy`, `fer.json` and `fer.h5` file for you.
 
