@@ -28,17 +28,17 @@ Download and extract the [Face Emotion Recognition (FER)](https://www.kaggle.com
 
 ### Preprocessing and Training
 
-Run the `preprocessing.py` file, which would generate `features.npy` and `labels.npy` files for you.
-Run the `fertrain.py` file,  this would take sometime depending on your processor and gpu. Took around 1 hour for with an Intel Core i7-7700K 4.20GHz processor and an Nvidia GeForce GTX 1060 6GB gpu, with tensorflow running on gpu support. If you don't have required hardware, you can use "Google Colab" for Training. It is free of cost and easy to use (I used it).
+Run the [`preprocessing.py`](https://github.com/abhijeetghubade/Facial_Emotion_recognition_CNN/blob/master/preprocessing.py) file, which would generate `features.npy` and `labels.npy` files for you.
+Run the [`fertrain.py`](https://github.com/abhijeetghubade/Facial_Emotion_recognition_CNN/blob/master/fertrain.py) file,  this would take sometime depending on your processor and gpu. Took around 1 hour for with an Intel Core i7-7700K 4.20GHz processor and an Nvidia GeForce GTX 1060 6GB gpu, with tensorflow running on gpu support. If you don't have required hardware, you can use "Google Colab" for Training. It is free of cost and easy to use (I used it).
 
 This would create `modelXtest.npy`, `modelytest,npy`, `fer.json` and `fer.h5` file for you.
 
 ## Running the tests (Optional)
 
-You can test the accuracy of trained classifier using `modXtest.npy` and `modytest.npy` by running `fertest.py` file. This would give youy the accuracy in % of the recently trained classifier.
+You can test the accuracy of trained classifier using `modXtest.npy` and `modytest.npy` by running [`fertest.py`](https://github.com/abhijeetghubade/Facial_Emotion_recognition_CNN/blob/master/fertest.py) file. This would give youy the accuracy in % of the recently trained classifier.
 This Model -  66.369% accuracy
 
-You can do the same on your custom test image and running the `fertestcustom.py` file. To make things more fun, I tested the model on faces of the cast from a popular TV Series F.R.I.E.N.D.S and results were pretty good!
+You can do the same on your custom test image and running the [`fertestcustom.py`](https://github.com/abhijeetghubade/Facial_Emotion_recognition_CNN/blob/master/fertestcustom.py) file. To make things more fun, I tested the model on faces of the cast from a popular TV Series F.R.I.E.N.D.S and results were pretty good!
 
 ![](https://github.com/abhijeetghubade/Emotion_recognition_CNN/blob/master/combined%20results.png)
 
