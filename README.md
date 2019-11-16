@@ -38,7 +38,7 @@ This would create `modXtest.npy`, `modytest,npy`, `fer.json` and `fer.h5` file f
 You can test the accuracy of trained classifier using `modXtest.npy` and `modytest.npy` by running `fertest.py` file. This would give youy the accuracy in % of the recently trained classifier.
 This Model -  66.369% accuracy
 
-You can do the same on your custom test image and running thefertestcustom.py file. To make things more fun, I tested the model on faces of the cast from a popular TV Series F.R.I.E.N.D.S and results were pretty good!
+You can do the same on your custom test image and running the `fertestcustom.py` file. To make things more fun, I tested the model on faces of the cast from a popular TV Series F.R.I.E.N.D.S and results were pretty good!
 
 ![](https://github.com/abhijeetghubade/Emotion_recognition_CNN/blob/master/combined%20results.png)
 
