@@ -31,7 +31,7 @@ Download and extract the [Face Emotion Recognition (FER)](https://www.kaggle.com
 Run the `preprocessing.py` file, which would generate `features.npy` and `labels.npy` files for you.
 Run the `fertrain.py` file,  this would take sometime depending on your processor and gpu. Took around 1 hour for with an Intel Core i7-7700K 4.20GHz processor and an Nvidia GeForce GTX 1060 6GB gpu, with tensorflow running on gpu support. If you don't have required hardware, you can use "Google Colab" for Training. It is free of cost and easy to use (I used it).
 
-This would create `modXtest.npy`, `modytest,npy`, `fer.json` and `fer.h5` file for you.
+This would create `modelXtest.npy`, `modelytest,npy`, `fer.json` and `fer.h5` file for you.
 
 ## Running the tests (Optional)
 
@@ -44,7 +44,9 @@ You can do the same on your custom test image and running the `fertestcustom.py`
 
 ## Future Usage:
 I used the Convolutional Neural Network (CNN) approach to get features from images. In future work, we can look into any other Deep Learning approach to do the same. We can also make some improvement, and make it work in real time.
-
 Although this model performs rather well, to improve its log loss we need to train our model by adding more images.
+
+### Trying to Make it easy to use
+I am personally trying mount this code on a website, using a lightweight WEGB (Web Server Gateway Interface) web application framework [`Flask`](https://www.palletsprojects.com/p/flask/)
 
 
