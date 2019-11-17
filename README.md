@@ -47,6 +47,6 @@ I used the Convolutional Neural Network (CNN) approach to get features from imag
 Although this model performs rather well, to improve its log loss we need to train our model by adding more images.
 
 ### Trying to Make it easy to use
-I am personally trying mount this code on a website, using a lightweight WEGB (Web Server Gateway Interface) web application framework [`Flask`](https://www.palletsprojects.com/p/flask/)
+I am trying deploy this model on a website, using a lightweight WEGB (Web Server Gateway Interface) web application framework [`Flask`](https://www.palletsprojects.com/p/flask/)
 
 
