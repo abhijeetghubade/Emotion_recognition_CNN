@@ -24,7 +24,7 @@ git clone https://github.com/abhijeetghubade/Emotion_recognition_CNN.git
 ```
 
 ### Download the Dataset
-Download and extract the [Face Emotion Recognition (FER)](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) dataset.
+Download and extract the [Face Emotion Recognition (FER)](https://drive.google.com/open?id=12LH4RkgIrZ7Vbk8VQU22XQ-4AlS2fwfE) dataset.
 
 ### Preprocessing and Training
 
